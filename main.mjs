@@ -7,8 +7,8 @@ router.post("/message", async (req, res) => {
 
     // just import and call the function
     try {
-
-        messageTwilio("Hi i am Ahad")
+                        // message   // reciever number
+        messageTwilio("Hi i am Ahad", '+923130019086')
         res.send("message sent")
 
     } catch (error) {
